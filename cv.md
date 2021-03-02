@@ -56,4 +56,7 @@ Freelance website development experience.
 
 ---
 
+## Languages
 
+* English - A1
+* Deutsche - A1
