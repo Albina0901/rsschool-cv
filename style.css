@@ -8,6 +8,15 @@ body {
     font-size: 16px;
     color: #fff;
 }
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s;
+}
+a:hover {
+    color: rgb(244, 153, 43);
+    transition: all 0.4s;
+}
 .wrapper {
     max-width: 1230px;
     padding: 0 15px;
@@ -16,6 +25,9 @@ body {
     border-radius: 20px;
     height: 1500px;
     padding: 50px;
+}
+.header {
+    margin-bottom: 100px;
 }
 .header__block {
     display: flex;
@@ -36,3 +48,30 @@ body {
     text-transform: uppercase;
     font-weight: 400;
 }
+.contacts {
+    margin-bottom: 100px;
+    position: relative;
+}
+.contacts::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: -50px;
+    background: #fff;
+}
+.contacts::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -50px;
+    background: #fff;
+}
+.contacts__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
