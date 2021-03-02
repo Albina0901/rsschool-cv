@@ -5,7 +5,7 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
 }
 .wrapper {
@@ -15,4 +15,24 @@ body {
     background: #2F3132;
     border-radius: 20px;
     height: 1500px;
+    padding: 50px;
+}
+.header__block {
+    display: flex;
+    align-items: center;
+}
+.header__img img {
+    border-radius: 50%;
+}
+.header__column {
+    margin-left: 100px;
+}
+.header__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 38px;
+}
+.header__subtitle {
+    text-transform: uppercase;
+    font-weight: 400;
 }
