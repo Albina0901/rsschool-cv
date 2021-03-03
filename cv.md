@@ -5,8 +5,8 @@
 
 ## Contacts
 
-Number: 8 (902) 628-31-14</br>
-E-mail: nyrkayrengoy189@gmail.com</br>
+Number: 8 (902) 628-31-14<br>
+E-mail: nyrkayrengoy189@gmail.com<br>
 telegram: @siddiss
 
 ---
